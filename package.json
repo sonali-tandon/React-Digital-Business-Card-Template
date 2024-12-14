@@ -1,6 +1,5 @@
 {
   "name": "Scrim-s04js4j",
-  "description": "https://scrimba.com/learn-react-legacy-c003ni72th/~010/s0grkf50s7/head",
   "scripts": {
     "watch": "webpack -w",
     "build": "webpack"
