@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+}
+
+#root {
+    background: #1E3A4D;
+    padding: 20px 0;
+}
+
+.business-card-container {
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    background: #1D2A3A;
+    z-index: 3;    
+}
+
+.business-card-container img {
+    border-radius: 15px 15px 0 0;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.info-container h2, h4, h5 {
+    margin: 0;
+}
+
+.info-container h2 {
+    color: white;
+    font-weight: 600;
+    font-size: 19px;
+}
+
+.info-container h4 {
+    color: yellowgreen;
+    font-weight: 200;
+    font-size: 11px;
+    margin-top: 1px;
+}
+
+.info-container h5 {
+    color: white;
+    font-weight: 100;
+    font-size: 10px;
+    margin-top: 9px;
+}
+
+.info-container button {
+    color: black;
+    font-weight: 600;
+    margin-top: 15px;
+    width: 150px;
+    height: 25px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.about-container {
+    color: white;
+    margin: 40px 25px 0 25px;
+}
+
+.about-container h3 {
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0
+}
+
+.about-container p {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 1.2;
+}
+
+.interests-container {
+    color: white;
+    margin: 40px 25px 0 25px;
+}
+
+.interests-container h3 {
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0
+}
+
+.interests-container p {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 1.2;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    background: #141E2A;
+    height: 50px;
+    align-items: center;
+    padding: 0 25px;
+}
+
+.footer-container img {
+    width: 20px;
+}
+
